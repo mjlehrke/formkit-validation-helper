@@ -1,0 +1,21 @@
+{
+  "name": "formkit-validation-helper",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Turns object keys into FormKit validation strings or arrays.",
+  "author": "Michael J. Lehrke",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^0.29.7"
+  },
+  "keywords": ["formkit", "vue", "inputs", "validation"],
+  "homepage": "https://github.com/mjlehrke/formkit-validation-helper",
+  "bugs": {
+    "url": "https://github.com/mjlehrke/formkit-validation-helper/issues"
+  }
+}
