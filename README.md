@@ -36,6 +36,10 @@ const validationArray = generateValidationArray(selectOptions); //=> [['dog'], [
     :validation="[['required'], ['is', ...validationArray]]"
   />
 </template>
+```
 
-
+## Note
+Only uses the object keys and not the values.
+```js
+{ dog: 'Dog', cat: 'Fox' } //=> 'dog,cat'
 ```

@@ -1,10 +1,9 @@
-export const generateValidationString = (obj) => {
-  return Object.keys(obj)
-    .map((key) => key)
-    .join(',');
+const generateValidationArray = (obj) => {
+  return Object.keys(obj);
+}
+
+const generateValidationString = (obj) => {
+  return generateValidationArray(obj).join(',');
 };
 
-export const generateValidationArray = (obj) => {
-  return Object.keys(obj)
-    .map((key) => ([key]));
-}
+export {generateValidationArray, generateValidationString};

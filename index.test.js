@@ -10,6 +10,6 @@ it('should generate validation string', () => {
 
 it('should generate validation array', () => {
   expect(generateValidationArray(options)).toStrictEqual(
-    [['dog'], ['cat'], ['mouse']]
+    ['dog', 'cat', 'mouse']
   );
 });
