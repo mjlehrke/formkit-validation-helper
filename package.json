@@ -1,6 +1,6 @@
 {
   "name": "formkit-validation-helper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "Turns object keys into FormKit validation strings or arrays.",
   "author": "Michael J. Lehrke",
