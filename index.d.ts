@@ -3,7 +3,7 @@
  *
  * Only uses the object keys and not the values.
  * ```js
- * { dog: 'Dog', cat: 'Fox' } //=> [['dog'], ['cat']]
+ * { dog: 'Dog', cat: 'Fox' } //=> ['dog', 'cat']
  * ```
  *
  * @param obj object with key/value pairs
@@ -12,7 +12,7 @@
  * ```js
  * import { generateArray } from 'formkit-validation-helper;
  * const selectOptions = { dog: 'Dog', cat: 'Cat', mouse: 'Mouse' };
- * const validationArray = generateArray(selectOptions) //=> [['dog'], ['cat'], ['mouse']]
+ * const validationArray = generateArray(selectOptions) //=> ['dog', 'cat', 'mouse']
  * //...
  * :validation="[['is', ...validationArray]]"
  * //...

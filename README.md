@@ -12,7 +12,7 @@ import { generateValidationString, generateValidationArray } from 'formkit-valid
 const selectOptions = { dog: 'Dog', cat: 'Cat', mouse: 'Mouse' };
 
 const validationString = generateValidationString(selectOptions); //=> 'dog,cat,mouse'
-const validationArray = generateValidationArray(selectOptions); //=> [['dog'], ['cat'], ['mouse']]
+const validationArray = generateValidationArray(selectOptions); //=> ['dog', 'cat', 'mouse']
 </script>
 
 <template>
